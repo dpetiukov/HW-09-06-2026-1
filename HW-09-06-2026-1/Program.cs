@@ -8,12 +8,12 @@
     public string WebsiteName
     {
         get { return _websiteName; }
-        set { _websiteName = value }
+        set { _websiteName = value; }
     }
 
     public string PathToWebsite
     {
-        get { return _pathToWebsite }
+        get { return _pathToWebsite; }
         set { _pathToWebsite = value; }
     }
 
@@ -29,7 +29,7 @@
         set { _addressOfWebsite = value; }
     }
     
-    public Website(string websiteName, string pathToWebsite
+    public Website(string websiteName, string pathToWebsite,
         string descriptionOfWebsite, string addressOfWebsite)
     {
         WebsiteName = websiteName;
